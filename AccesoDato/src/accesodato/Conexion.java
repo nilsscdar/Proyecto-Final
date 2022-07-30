@@ -18,7 +18,7 @@ public class Conexion {
         //nombre del controlador
         Class.forName("com.mysql.jdbc.Driver");
         //url de la conexion, le agregamos usuario y contraseña
-        Connection cn= DriverManager.getConnection("jdbc:mysql://localhost:3306/dbcolegio2","root","");
+        Connection cn= DriverManager.getConnection("jdbc:mysql://localhost:3306/dbcolegio2","root","root");
         return cn;
     }
 }
